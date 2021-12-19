@@ -108,6 +108,7 @@ img[src="/18-Week/UX_UI_HW_18/Images/Shelterhero.png"] {
   display: inline;
   width: 100%;
   
+  
 }
 
 
@@ -354,11 +355,12 @@ h4 {
 }
 
 .box {
-  background-color: lightgray;
+  background-color: white;
   color: black;
   border-radius: 5px;
   padding: 20px;
   font-size: 150%;
+ 
   
 
 }
@@ -496,4 +498,6 @@ h4 {
   flex-direction: row;
   justify-content: space-between;
 }
+
+
 
