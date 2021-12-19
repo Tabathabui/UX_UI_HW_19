@@ -1,0 +1,499 @@
+/* Navigation styles */
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 40px 40px 40px 40px;
+  width: 30%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+}
+
+/* Column styles */
+
+body {
+
+  margin: 0 auto;
+}
+
+.content {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  
+}
+.content h1 {
+  color: black;
+  size: 36px;
+}
+
+.content button {
+  
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px #d3d3d3;
+  border: 1px;
+  width: 150px;
+  margin-top: 40px;
+ 
+}
+
+.nested div {
+  padding: 1em;
+}
+
+.nested {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.gridtest {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 2fr 1fr 2fr 2fr;
+  grid-gap: 1em;
+  grid-auto-rows: minmax(100px, auto);
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+
+.gridtest div{
+  grid-gap: 1em;
+  padding: 1em;
+  background-color: #eee;
+}
+
+.gridtest > div:nth-child(odd) {
+  background-color: #ddd;
+}
+
+.gridtest button {
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px #d3d3d3;
+  border: 1px;
+  width: 150px;
+  margin-top: 40px;
+ 
+
+}
+
+.content button:hover {
+  background-color:#A6795B;
+  
+}
+
+.heroImg {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+
+h1 {
+  font-family: 'Cabin Sketch';
+ 
+}
+
+img[src="/18-Week/UX_UI_HW_18/Images/Shelterhero.png"] {
+  display: inline;
+  width: 100%;
+  
+}
+
+
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-left: 40px;
+  color: white;
+  background-color: #97a9b1;
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+  background-color: #81969E;
+  padding-left: 40px;
+  padding-bottom: 40px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+}
+
+.tablehead {
+  align-items: left;
+  
+}
+
+.resumecode h2 {
+  font-family: 'Cabin Sketch';
+  color: black
+}
+
+.resumecode {
+  margin-left: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
+
+}
+.intro {
+  margin-right: 50px;
+  min-width: 225px;
+  margin-left: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
+}
+
+.intro h2 {
+  font-family: 'Cabin Sketch';
+
+}
+.resumeleft {
+  margin-right: 50px;
+  min-width: 225px;
+
+}
+
+.vl {
+  border-top: 1px solid grey;
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 1200px;
+}
+
+.resumeright { 
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 800px;
+
+}
+.lista {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px; 
+  width: 800px;
+  display: inline;
+}
+
+h3 {
+  font-family: 'Cabin Sketch';
+  text-decoration-line: underline;
+}
+ .projects {
+   margin-left: 40px;
+ }
+
+ .contact {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px; 
+  width: 800px;
+  margin-top: 20px;
+  margin-bottom: 100px;
+ }
+
+ .projects strong {
+  font-family: 'Cabin Sketch';
+  color: black;
+ }
+
+
+/* Footer Styles */
+.footer { 
+  
+  background-color: #A6795B;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  color: white;
+  width: 100% !important;
+  
+  
+}
+
+.left {
+  margin-left: 40px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+}
+
+img[src="Images/Instagram.png"] {
+  height: 20px;
+  width: 20px;
+  padding-right: 20px;
+}
+img[src="Images/linked.png"] {
+  height: 20px;
+  width: 20px;
+  padding-right: 20px;
+  
+}
+img[src="Images/behance.png"] {
+  height: 20px;
+  width: 20px;
+  padding-right: 20px;
+}
+
+img[src="/18-Week/UX_UI_HW_18/Images/Applyleft.png"] {
+  width: 100%;
+  
+}
+img[src="/18-Week/UX_UI_HW_18/Images/Applyright.png"] {
+  width: 50%;
+}
+img[src="/18-Week/UX_UI_HW_18/Images/Applycenter.png"] {
+  width: 100%;
+}
+img[src="/18-Week/UX_UI_HW_18/Images/Hypothesis.png"] {
+  width: 60%;
+  margin-top: 50px;
+}
+img[src="/18-Week/UX_UI_HW_18/Images/problem.png"] {
+  width: 30%;
+  margin-top: 30px;
+  margin-left: 40px;
+}
+
+img[src="/18-Week/UX_UI_HW_18/Images/Veteran.png"] {
+  width: 100%;
+}
+img[src="/18-Week/UX_UI_HW_18/Images/Business.png"] {
+  width: 100%;
+}
+
+img[src="/18-Week/UX_UI_HW_18/Images/Color mood 1.png"] {
+  width: 100%;
+}
+
+img[src="/18-Week/UX_UI_HW_18/Images/styletile.png"] {
+  width: 100%;
+}
+
+.wrapper h4 {
+  font-family: 'Cabin Sketch';
+  color: black;
+}
+
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.right {
+  margin: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  
+}
+
+.copyright {
+font-size: 10px;
+padding-top: 50px;
+color: #e0d5cd;
+}
+
+.left button {
+  padding: 10px;
+  background-color: none;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px #525151;
+  border: none;
+  width: 150px;
+  opacity: .8;
+}
+p{
+  font-size: 15px;
+  
+}
+
+
+h4 {
+  font-weight: 100;
+}
+
+.wrapper {
+  display: inline-grid;
+  grid-gap: 10px;
+  grid-template-columns: [col] auto [col] auto [col] auto [col] auto  ;
+  grid-template-rows: [row] auto [row] auto [row] ;
+  background-color: #fff;
+  color: #444;
+  margin: 40px;
+  grid-auto-flow: column;
+}
+
+.box {
+  background-color: lightgray;
+  color: black;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+  
+
+}
+
+.box h2 {
+  font-family: 'Cabin Sketch';
+}
+
+.a {
+  grid-column: col / span ;
+  grid-row: row ;
+  
+}
+.b {
+  grid-column: col 2 / span 3 ;
+  grid-row: row ;
+
+}
+.e {
+  grid-column: col / span 4;
+  grid-row: row 2;
+}
+.row3 {
+  grid-column: col / span 2;
+    grid-row: row 3;
+}
+.row3b {
+  grid-column: col 3 / span 2 ;
+    grid-row: row 3;
+
+}
+.row4 {
+  grid-column: col / span 2;
+    grid-row: row 4;
+}
+.row4b {
+  grid-column: col 3 / span 2 ;
+    grid-row: row 4;
+
+}
+.row5 {
+  grid-column: col / span 4;
+  grid-row: row 5;
+}
+.row6 {
+  grid-column: col / span 4;
+  grid-row: row 6;
+}
+.row7 {
+  grid-column: col / span 2;
+  grid-row: row 7;
+}
+.row7b {
+  grid-column: col 3 / span 2;
+  grid-row: row 7;
+}
+.row8 {
+  grid-column: col / span 4;
+  grid-row: row 8;
+}
+.row9 {
+  grid-column: col / span 4;
+  grid-row: row 9;
+}
+.row10 {
+  grid-column: col / span 2;
+  grid-row: row 10;
+}
+.row10b {
+  grid-column: col 3 / span 2;
+  grid-row: row 10;
+}
+.row11 {
+  grid-column: col / span 4;
+  grid-row: row 11;
+}
+
+.row1 p {
+  line-height: 5px;
+}
+
+.row1 h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+}
+
+.row1 button {
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px #525151;
+  border: none;
+  width: 150px;
+  opacity: .8;
+  margin-top: 20px;
+  background-color: #A6795B;
+}
+
+.bullets {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  margin: 30px;
+  line-height: 40px;
+  font-weight: bold;
+}
+
+.numberCircle {
+  border-radius: 50px;
+  min-width: 20px;
+  height: 20px;
+  padding: 4px;
+  background: #FF0303;
+  color: white;
+  text-align: center;
+  font: 15px 'Roboto', sans-serif;
+  margin: 20px;
+  
+}
+
+.redline p {
+  color: #FF0303;
+  font-size: 15px;
+  
+  padding: 4px;
+  
+}
+
+.redline {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+
+.align {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
