@@ -104,7 +104,7 @@ h1 {
  
 }
 
-img[src="/18-Week/UX_UI_HW_18/Images/Shelterhero.png"] {
+img[src="Images/Shelterhero.png"] {
   display: inline;
   width: 100%;
   
@@ -259,38 +259,38 @@ img[src="Images/behance.png"] {
   padding-right: 20px;
 }
 
-img[src="/18-Week/UX_UI_HW_18/Images/Applyleft.png"] {
+img[src="Images/Applyleft.png"] {
   width: 100%;
   
 }
-img[src="/18-Week/UX_UI_HW_18/Images/Applyright.png"] {
+img[src="Applyright.png"] {
   width: 50%;
 }
-img[src="/18-Week/UX_UI_HW_18/Images/Applycenter.png"] {
+img[src="Applycenter.png"] {
   width: 100%;
 }
-img[src="/18-Week/UX_UI_HW_18/Images/Hypothesis.png"] {
+img[src="Images/Hypothesis.png"] {
   width: 60%;
   margin-top: 50px;
 }
-img[src="/18-Week/UX_UI_HW_18/Images/problem.png"] {
+img[src="Images/problem.png"] {
   width: 30%;
   margin-top: 30px;
   margin-left: 40px;
 }
 
-img[src="/18-Week/UX_UI_HW_18/Images/Veteran.png"] {
+img[src="Images/Veteran.png"] {
   width: 100%;
 }
-img[src="/18-Week/UX_UI_HW_18/Images/Business.png"] {
-  width: 100%;
-}
-
-img[src="/18-Week/UX_UI_HW_18/Images/Color mood 1.png"] {
+img[src="Images/Business.png"] {
   width: 100%;
 }
 
-img[src="/18-Week/UX_UI_HW_18/Images/styletile.png"] {
+img[src="Images/Color mood 1.png"] {
+  width: 100%;
+}
+
+img[src="Images/styletile.png"] {
   width: 100%;
 }
 
