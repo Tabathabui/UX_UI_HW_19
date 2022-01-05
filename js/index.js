@@ -11,9 +11,3 @@ function() {
     $(this).stop().animate({ fontSize : '15px' });
 });
 
-$('#zoom_01').elevateZoom({
-    zoomType: "inner",
-    cursor: "crosshair",
-    zoomWindowFadeIn: 200,
-    zoomWindowFadeOut: 500
-   });
